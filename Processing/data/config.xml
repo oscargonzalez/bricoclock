@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+	<clock port="COM1" sync_rate="10" time_sync="21600" feed="feed-meneame.xml"></clock>
+</config>

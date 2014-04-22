@@ -1,0 +1,41 @@
+
+	WallClock Serial Commands Reference
+	Oscar Gonzalez MArch 2010 - www.BricoGeek.com
+	
+	All command must be uppercase!
+	All replies include carriage return at the end.
+	
+	------------------------------------------------------------------------------------
+	GET
+		VERSION
+		Desc: Get firmware version.
+		Example: GET VERSION
+		Return: OK or KO
+		
+		TIME
+		Desc: Get current clock time
+		Example: GET TIME
+		Return: HH:MM:SS (21:36:42)
+		
+		DATE
+		Desc: Get current date
+		Example: GET DATE
+		Return: DD/MM/YYYY (01/12/2009)
+		
+		TEMP:
+		Desc: Return ambient temperature
+		Example: GET TEMP
+		Return: XX (21) - Allways two digits. Assume clock never be below 0!
+		
+		HUMI:
+		Desc: Return current relative humidity
+		Example: GET HUMI
+		Return: XX (58) - Allways too digits.
+	------------------------------------------------------------------------------------	
+	SET
+		TIME
+		Desc: Set time and date
+		Example: SET TIME 13 4 56 2 4 9 - This set the time to 13:04:56 and date to 02 april 2009 (My brithday!)
+		Return: OK of KO
+	
+		

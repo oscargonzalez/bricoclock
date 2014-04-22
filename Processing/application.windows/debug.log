@@ -1,0 +1,5 @@
+*** Start ClockBase ***
+Get config
+ Port: COM1
+ Sync rate: 10 seconds
+ Feed URL: feed-meneame.xml
